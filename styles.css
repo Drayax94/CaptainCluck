@@ -1,0 +1,38 @@
+body {
+    background: #EFE1C1;
+}
+
+body {
+    font-family: 'Quicksand', sans-serif;
+  }
+
+.header {
+    background: #3E7388;
+}
+
+.header h1, .header h2, .header p {
+    font-family: 'Bangers', cursive;
+  }
+
+.header h1 {
+    margin: 0;
+    font-size: 3rem;
+    color: #EFD746;
+  }
+
+.header h2 {
+
+  }
+
+.header p {
+    color: #EFE1C1
+  }
+
+h3 {
+    font-family: 'Comic Neue', cursive;
+  }
+
+.powers {
+    background: yellow;
+  }
+
