@@ -69,7 +69,7 @@ p {
   display: flex;
   flex-wrap: wrap;
   width: 100%;
-  min-height: 300px;
+  height: auto;
   border-top: black 3px solid;
   border-bottom: black 3px solid;
 }
@@ -80,6 +80,7 @@ p {
     padding-right: 20px;
     align-items: center;
     justify-content: space-evenly;
+    height: auto;
 }
 
 .text-container .left {
