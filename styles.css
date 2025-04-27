@@ -1,38 +1,105 @@
-body {
-    background: #EFE1C1;
-}
-
-body {
+.poster {
     font-family: 'Quicksand', sans-serif;
-  }
-
-.header {
-    background: #3E7388;
+    width: 1000px;
+    border: black 6px solid;
+    background: #EFE1C1;
+    margin: auto;
 }
 
-.header h1, .header h2, .header p {
+.header-container h1, .header-container h2, .header-container p {
     font-family: 'Bangers', cursive;
-  }
+}
 
-.header h1 {
+.header-container h1 {
     margin: 0;
-    font-size: 3rem;
+    font-size: 100px;
     color: #EFD746;
-  }
+    text-shadow:
+        -4px -4px 0 black,
+        4px -4px 0 black,
+        -4px  4px 0 black,
+        4px  4px 0 black;
+    margin-top: -40px;
+    margin-bottom: 30px;
+}
 
-.header h2 {
+.header-container h2 {
+    font-size: 60px;
+}
 
-  }
+.header-container p {
+    color: #EFE1C1;
+    font-size: 30px;
+    margin-top: -15px;
+}
 
-.header p {
-    color: #EFE1C1
-  }
+.chicken-img {
+    width: auto;
+    height: 95%;
+    margin-top: 35px;
+}
 
 h3 {
-    font-family: 'Comic Neue', cursive;
-  }
+    font-family: 'Bangers', cursive;
+    font-size: 30px;
+    font-style: bold;
+    margin-bottom: -12px;
+}
+
+.header-container {
+    display: flex;
+    width: 100%;
+    height: 350px;
+    border-bottom: black 3px solid;
+    background: #3E7388;
+    justify-content: center;
+    text-align: center;
+}
+  
+.header-item {
+    flex: 0 0 50%;
+    margin-top: -43px;
+}
+
+p {
+    font-size: 18px;
+}
+
+.text-container {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  min-height: 300px;
+  border-top: black 3px solid;
+  border-bottom: black 3px solid;
+}
+
+.text-item {
+    width: 45%;
+    padding-left: 20px;
+    padding-right: 20px;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.text-container .left {
+    border-right: black 3px solid;
+}
+
+.text-container .right {
+    border-left: black 3px solid;
+}
 
 .powers {
     background: yellow;
   }
 
+.base {
+    border-top: black 3px solid;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.base .italic {
+    font-style: italic;
+}
