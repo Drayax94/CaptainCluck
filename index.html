@@ -10,7 +10,7 @@
 </head>
 <body>
     
-    <button class="menu-toggle" aria-label="Toggle navigation menu">☰</button>
+
     <nav class="side-nav">
         <ul>
             <li><h2>Contents</h2></li>
@@ -170,24 +170,6 @@
             </p>
           </footer>
     </div>
-    <script>
-        document.addEventListener('DOMContentLoaded', function() {
-            const menuToggle = document.querySelector('.menu-toggle');
-            const sideNav = document.querySelector('.side-nav');
-            
-            menuToggle.addEventListener('click', function() {
-                sideNav.classList.toggle('active');
-            });
-            
-            const navLinks = document.querySelectorAll('.side-nav a');
-            navLinks.forEach(link => {
-                link.addEventListener('click', function() {
-                    if (window.innerWidth <= 768) {
-                        sideNav.classList.remove('active');
-                    }
-                });
-            });
-        });
-    </script>
+
 </body>
 </html>
